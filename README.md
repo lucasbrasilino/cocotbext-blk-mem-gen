@@ -1,7 +1,11 @@
 # Xilinx Block Memory Generator model for Cocotb
 
-This extension a model for the [Xilinx Memory Generator](https://www.xilinx.com/support/documentation/ip_documentation/blk_mem_gen/v8_4/pg058-blk-mem-gen.pdf) when set with _Interface Type_ **AXI4** and _Memory Type_ **Simple Dual Port RAM**. That will
-enable a second port (Port B) where you can read from memory.
+This extension a model for the [Xilinx Block Memory Generator](https://www.xilinx.com/support/documentation/ip_documentation/blk_mem_gen/v8_4/pg058-blk-mem-gen.pdf) when set with  the following configurations:
+
+* _Interface Type_: **AXI4**
+* _Memory Type_ **Simple Dual Port RAM**. 
+
+With the above configuration a second port (Port B) is enabled where you can read from memory.
 
 ## Signal mappings to model
 
